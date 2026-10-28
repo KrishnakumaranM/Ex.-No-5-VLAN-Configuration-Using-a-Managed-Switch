@@ -1,5 +1,5 @@
 ## Ex. No: 5  VLAN Configuration Using a Managed Switch
-Date:
+Date:28.10.26
 ________________________________________
 # Objective
 To configure Virtual Local Area Networks (VLANs) on a managed switch and verify that hosts within the same VLAN can communicate while others cannot.
@@ -61,9 +61,17 @@ Switch(config-if-range)# exit<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on switch<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/630ad151-80b7-46f4-bb94-514feff8c4c9" />
+
 •	PC IP settings<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/386cbe2d-760f-4632-91f4-b1c55463d9d8" />
+
 •	Successful ping between PCs in the same VLAN<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7380ce1f-f47c-4941-bf5e-c99d80d7da70" />
+
 •	Failed ping between PCs in different VLANs<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d1000041-d73a-4680-aa69-e3bca678fbc5" />
+
 ________________________________________
 # Result
 Successfully created and configured VLANs on a managed switch. Verified that only PCs within the same VLAN could communicate with each other.
